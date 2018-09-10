@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <title>UX_JUNE</title>
+    <title>UX_JUNE-Project</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125351098-1"></script>
 <script>
@@ -15,33 +16,40 @@
 
   </head>
   <body>
-    <h1><a href="index.html">Personal Portfolio</a></h1>
-    <ol>
-      <li><a href="1.html">Educations</a></li>
-      <li><a href="2.html">Project</a></li>
-      <li><a href="3.html">Personals</a></li>
-    </ol>
-
-    <h2>UX_JUNE Portfolio</h2>
-    <p>
+    <h1><a href="index.html" style="color:#EB4966;">Personal Portfolio</a></h1>
+<div id="grid">
+      <ol style="font-size:20px;">
+        <div style="text-decoration-color:white">
+        <li><a href="1.html" class="list" >Educations</a></li>
+        <li><a href="2.html" class="list" id="active">Project</a></li>
+        <li><a href="3.html" class="list">Personals</a></li>
+        </div>
+      </ol>
+    <div id="article">
+    <h2>Personal Portfolio</h2>
+    <p style="text-align:center;">
       My name is
       <strong><u>Cho</u> Hyeon Jun</strong>,
       Nice to see <strong><u>u</u></strong>
       하하하
     </p>
-    <img src="증명사진.jpeg" width="300">
-    <p style="margin-top:30px;">
-    <a href="https://www.coursera.org/learn/machine-learning?authMode=complete&completeMode=noEmailAvailable"
-    target="_blank" title="About Machine Learning">Machine learning</a> is the science of getting computers
-    to act without being explicitly programmed.
-    In the past decade, machine learning has
-    given us self-driving cars, practical speech
-    recognition, effective web search, and a vastly
-    improved understanding of the human genome.<br>
-    Machine learning is so pervasive
-  </p>
-  <p>
-    <div id="disqus_thread"></div>
+    <p align="middle" style="padding-right:20px;">
+    <img width=100%
+    src="wallpaper2.jpg"
+  </img>
+    </p>
+    <p style="margin-top:30px;" width="60px">
+      <a href="https://www.coursera.org/learn/machine-learning?authMode=complete&completeMode=noEmailAvailable"
+      target="_blank"
+      title="About Machine Learning">
+        Seoultech
+      </a>
+      에서 MSDE전공 과정을 통해 기계, 전자, 제어 등의 공학적 백그라운드를 쌓았으며 UX/HCI 전문가로 거듭나기 위한 노력중이다.
+    </p>
+  </div>
+</div>
+<p>
+  <div id="disqus_thread"></div>
 <script>
 
 /**
@@ -63,7 +71,7 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </p>
 <p>
-  <!--Start of Tawk.to Script-->
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
@@ -77,5 +85,5 @@ s0.parentNode.insertBefore(s1,s0);
 </script>
 <!--End of Tawk.to Script-->
 </p>
-  </body>
+</body>
 </html>
